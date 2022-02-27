@@ -1,0 +1,156 @@
+.card__wrapper {
+  padding: 5rem 2rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #region GRADIENT COLORS */
+.grd_0 {
+  background: linear-gradient(165deg, #845EC2, #D65DB1, #FF6F91);
+}
+
+.grd_1 {
+  background: linear-gradient(45deg, #00baf5, #00cce4, #20dc8e);
+}
+
+.grd_2 {
+  background: linear-gradient(calc(360deg /5), #F9F871, #FFC75F, #FFC75F);
+}
+
+.grd_3 {
+  background: linear-gradient(calc(360deg /7), #845EC2, #0089BA, #008F7A);
+}
+
+.grd_4 {
+  background: linear-gradient(calc(360deg /15), #56e4a9, #e61da9, #d6da24);
+}
+
+.grd_5 {
+  background: linear-gradient(calc(360deg /6), #EC76B9, #54E37F, #EBB057);
+}
+
+.grd_6 {
+  background: linear-gradient(calc(360deg /80), #f17979, #16D0D8, #5872EE);
+}
+
+.grd_7 {
+  background: linear-gradient(calc(360deg /20), #845EC2, #FFC75F, #FF6F91);
+}
+
+.grd_8 {
+  background: linear-gradient(calc(360deg /3), #F9F871, #D65DB1, #00baf5);
+}
+
+.grd_9 {
+  background: linear-gradient(calc(360deg /25), #008F7A, #D65DB1, #FFC75F);
+}
+
+/* #endregion */
+
+/* #region COLOR PATH */
+
+.color_0 {
+  color: #0C15C0;
+}
+
+.color_1 {
+  color: #BF009A;
+}
+
+.color_2 {
+  color: #FF006C;
+}
+
+.color_3 {
+  color: #FF6D48;
+}
+
+.color_4 {
+  color: #00DCAE;
+}
+
+.color_5 {
+  color: #aa0a62;
+}
+
+.color_6 {
+  color: #00C0DA;
+}
+
+.color_7 {
+  color: #00A2FD;
+}
+
+.color_8 {
+  color: #EA5757;
+}
+
+.color_9 {
+  color: #C14E83;
+}
+
+/* #endregion */
+
+.card {
+  background-color: #fff;
+  width: 100%;
+  height: 500px;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: -5px 5px 15px #0007;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quote__mark {
+  width: auto;
+  height: auto;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote__mark>i {
+  font-size: 3rem;
+}
+
+.card__main {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__quote {
+  width: 90%;
+  height: 80%;
+  font-size: 18px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__author {
+  width: 90%;
+  height: auto;
+  padding: 10px 0;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: right;
+}
+
+.card__footer {
+  width: 100%;
+}
