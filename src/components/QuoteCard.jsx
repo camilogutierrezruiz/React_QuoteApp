@@ -40,7 +40,6 @@ const QuoteCard = () => {
   const [quote, setQuote] = useState(quotes[getRandom()]);
 
   const changeQuote = () => {
-    console.log('funcionando');
     let randonNum = getRandom();
     setQuote(quotes[randonNum]);
   };
