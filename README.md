@@ -1,4 +1,4 @@
-# Portafolio responsivo
+# Random Quotes Generator
 
 ![Portafolio terminado](./screencaptures.png)
 
